@@ -1,4 +1,4 @@
-/*
+/**
  * This program copies the contents of a file from one location to another.
  *
  * @author Kevin J James
@@ -12,7 +12,7 @@ import java.util.Scanner;
 
 
 public class FileCopier {
-    /*
+    /**
      * This is the main method, and it calls the copy() method.
      *
      * Exit status 0 - successful
@@ -50,13 +50,13 @@ public class FileCopier {
         System.exit(0);
     }
     
-    /*
+    /**
      * This method accepts a source filename and a desired destination
      * filename, and then copies the contents from the source file to the 
      * destination file.
      *
-     * @param src  - source filename
-     *        dest - destination filename
+     * @param src  source filename
+     * @param dest  destination filename
      * @return execution status
      *        0  - success
      *        1  - input file does NOT exist
